@@ -1,0 +1,3 @@
+THIS IS FIRST SAFETY DOOR VERSION, BUT WITH PARTS RENAMED/REORGANIZED.
+
+No signifiant changes made since sending door parts to Rapid for prototyping.

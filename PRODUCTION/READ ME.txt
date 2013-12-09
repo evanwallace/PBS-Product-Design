@@ -1,0 +1,36 @@
+
+================================
+INTRUCTIONS TO RAPID SHEET METAL
+================================
+
+
+11/17/2013
+==========
+
+These files are for a new safety door for the Perlini Bottling System. There is a directory with native Solidworks 2013 files and a directory with STEP files, along with an eDrawing of the entire product.
+
+
+The only two files for which the surface finish is important are:
+
+	Lower outside door strip
+	Upper outside door strip
+
+They should have a vertical brushed grain on outer surface, to match the valence piece (PBS_290 from last part set).
+
+
+These two parts have very tight tolerances:
+
+
+	lower inside door band and hinge
+	upper inside door band - hinge- locking tongue
+
+It is very important the U-shaped hinges be welded very precisely to the curved band, with a tolerance of +/- 0.02" up-down and side-to-side.
+
+
+Please contact Evan Wallace at 425 770 3826 or evan@perlagesystems.com with any questions
+
+
+11/18/2013
+==========
+
+Can the screw holes on the upper and lower inside door bands be threaded for #4-40 machine screws?
