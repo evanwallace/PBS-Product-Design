@@ -1,0 +1,70 @@
+******
+Search on PBS-Parent
+Features/
+210_S_SHELL_R_a refers to PBS-Parent File
+610 <1>
+610 <2>
+610 <3>
+610 <4>
+
+All references of 96439A320 go to root of Assembly
+*****
+
+
+
+MAIN ISSUES WITH ASSEMBLY:
+
+--In the top level assembly, the assembly is calling the parent file from two locations with two different names: PBS-Parent File from the root, and PBS_000_PARENT from the PBS_000_PARENT directory. I can't seem to change this--the assembly wants to see exactly those names in those locatons. NEED TO FIX. 
+
+RELATED: Also, there seems to need to be a PEM nut in the root of ASSEMBLY.
+
+--I dont think width of slots is the same in shell a
+
+
+--In top-level assembly, I used RH SHELL version "a", that still has components in it. But in DOOR assembly, I used version "b" of RH SHELL with components (like brackets) stripped out
+
+
+
+--Used FILLING PLATE version "a" that still has solenoid in it. FILLING PLATE version "b" has solenoid removed. Should this just be deleted? I don't think it is used anywhere.
+
+--The SOLENOID part does not exist as a separate part--it is part of the FILLING PLATE. Save it as PBS_660_X_DOOR_SOLENOID (dummy file created by me)
+
+
+
+
+
+
+
+
+MAIN ISSUE WITH DOOR:
+
+
+--DOOR ASSEMBLY USES DAMPER version "b" AND RH SHELL version "b (which doesn't have components in it)
+
+--I'm not sure if the gear at the top of the upper hinge (PBS 652) in the axle parent file is the same gear that was saved as a part.
+
+--The washer at the bottom was never saved out as a part. I created a dummy file for it in the PBS 600 directory
+
+--DAMPER part was recreated from scratch. Version "a" used in assembly; "b" used in door assembly
+
+The part called DOOR SPRING TORQUED is the one that should be put in the assembly and subassembly. The one called untorqued is the one that will be send to manufacturers
+
+--I added a new finger switch with the MPN appended
+
+
+OTHER ISSUES:
+
+--Should there be an assembly file for the panel? Ideally we would model the screen, buttons, etc.
+
+
+--Remove plastic component panels/brackets (PBS 610, 660, 710)
+
+
+
+
+
+
+
+
+
+
